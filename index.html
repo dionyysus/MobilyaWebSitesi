@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="tr">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+    <title>Secret</title>
+    <meta name="description" content="Secret Mobilya
+" />
+    <meta name="author" content="Secret" />
+    <link rel="canonical" href="index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+    <link rel="stylesheet" href="themes/default/assets/frontend/css/frontend.css" type="text/css" />
+    <link rel="stylesheet" href="themes/default/assets/frontend/css/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" href="themes/default/assets/frontend/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="themes/default/assets/frontend/include/rs-plugin/css/settings.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="themes/default/assets/frontend/include/rs-plugin/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="themes/default/assets/frontend/include/rs-plugin/css/navigation.css">
+    <style type="text/css" media="screen">
+        .urunalan {
+            width: 70%;
+            background-color: #fff;
+            height: 150px;
+            position: relative;
+            border-left: 1px solid #e5e5e5;
+            border-top: 0px solid #e5e5e5;
+        }
+        
+        .urungrupbaslik {
+            font-size: 35px;
+            font-weight: 900;
+            color: #dedede;
+            position: absolute;
+            left: 5px;
+            bottom: -20px;
+            margin-bottom: 0px;
+        }
+        
+        .urunresim {
+            text-align: right;
+        }
+        
+        .urunresim img {
+            position: absolute;
+            right: -50px;
+            bottom: -15px;
+        }
+    </style>
+
+   
+</head>
+
+<body class="stretched no-transition">
+    <div id="app">
+        <div class="popup-wrap" style="z-index:9500;">
+            <div class="popup-box">
+                <a href="#">
+                    <img src="img/popup/index.html" width="100%">
+                </a>
+                <a class="popclose-btn popup-close" href="#">x</a>
+            </div>
+        </div>
+        <div id="wrapper" class="clearfix">
+            <header id="header" class="sticky-header">
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                <div id="header-wrap">
+                    <div id="top-bar">
+                        <div class="container clearfix">
+                            <div class="row">
+                                <div class="col-md-7 col-md-offset-5 col-xs-10 search-social-container col_last nobottommargin">
+                                    <search baseurl="index.html">
+
+                                    </search>
+                                    <div id="top-social">
+                                        <ul class="social-links-top">
+                                            <li><a href="link yok" class="topsocial si-facebook"><span class="ts-icon"><i class="fa fa-facebook"></i></span><span>Facebook</span></a></li>
+                                            <li><a href="link yok" class="topsocial si-twitter"><span class="ts-icon"><i class="fa fa-twitter"></i></span><span >Twitter</span></a></li>
+                                            <li><a href="link yok" class="topsocial si-instagram"><span class="ts-icon"><i class="fa fa-instagram"></i></span><span >Instagram</span></a></li>
+                                            <li><a href="https://www.linkedin.com/in/gizem-coşkun-526376197/?lipi=urn%3Ali%3Apage%3Amynetwork_index%3B2032a871-de2e-43c6-9323-a072890fa31b" class="topsocial si-linkedin"><span class="ts-icon"><i class="fa fa-linkedin"></i></span><span>LinkedIn</span></a></li>
+                
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="col-xs-2 hidden-md menu-lang-ul-container hidden-lg hidden-sm fright">
+                                    <ul class="menu-lang-ul">
+
+
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    
+                    <div class="container clearfix">
+                        <div id="primary-menu-trigger"><i class="fa fa-bars"></i></div>
+                        <div id="logo">
+                            <a href="index.html" class="standard-logo" data-dark-logo="img/secretlogo.png"><img src="img/secretlogo.png" alt="Secret Logo"></a>
+                            <a href="index.html" class="retina-logo" data-dark-logo="img/secretlogo.png"><img src="img/secretlogo.png" alt="Secret Logo"></a>
+                        </div>
+                        <nav id="primary-menu">
+                            <ul>
+                                <li class=" ">
+                                    <a href="index.html" target="_self">
+                                        <div> ANA SAYFA</div>
+                                    </a>
+                                </li>
+                                <li class=" dropdown">
+                                    <a href=" #  " target="_self">
+                                        <div> KURUMSAL</div>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class=" ">
+                                            <a href="hakkimizda.html" target="_self">
+                                                <div> HAKKIMIZDA</div>
+                                            </a>
+                                        </li>
+                                        
+                                        <li class=" ">
+                                            <a href="ilkelerimiz.html" target="_self">
+                                                <div> İLKELERİMİZ</div>
+                                            </a>
+                                        </li>
+                                        
+                                        
+                                    </ul>
+                                </li>
+                                <li class=" dropdown">
+                                    <a href=" #  " target="_self">
+                                        <div> KOLEKSİYON</div>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class=" ">
+                                            <a href="koleksiyon/koltuk-takimlari.html" target="_self">
+                                                <div> KOLTUK TAKIMLARI</div>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="koleksiyon/kose-koltuk-takimlari.html" target="_self">
+                                                <div> KÖŞE KOLTUK TAKIMLARI</div>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="koleksiyon/berjerler.html" target="_self">
+                                                <div> BERJERLER</div>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="koleksiyon/sandalyeler.html" target="_self">
+                                                <div> SANDALYELER</div>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="koleksiyon/yatak-odasi-takimlari.html" target="_self">
+                                                <div> YATAK ODALARI</div>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="koleksiyon/yemek-odasi-takimlari.html" target="_self">
+                                                <div> YEMEK ODALARI</div>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="koleksiyon/tv-uniteleri.html" target="_self">
+                                                <div> TV ÜNİTELERİ</div>
+                                            </a>
+                                        </li>
+                                        <li class=" sub-menu">
+                                            <a href="koleksiyon/tamamlayicilar.html" target="_self">
+                                                <div> TAMAMLAYICILAR</div>
+                                            </a>
+                                            <ul class="sub-menu">
+                                               
+                                                <li class=" ">
+                                                    <a href="koleksiyon/sehpalar.html" target="_self">
+                                                        <div> SEHPALAR</div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                               
+                                <li class=" dropdown">
+                                    <a href=" #  " target="_self">
+                                        <div> İLETİŞİM</div>
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class=" ">
+                                            <a href="iletisim-bilgileri.html" target="_self">
+                                                <div> İLETİŞİM BİLGİLERİ</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <section id="producs_of_month_slider" class="clearfix" style=" text-align:center;">
+                <div class="container" style="margin-top: 60px;">
+                    <div id="pom_slider_wrapper" class="rev_slider_wrapper container" style="background-color:transparent;padding:0px;">
+                        <div id="pom_slider" class="rev_slider tp-overflow-hidde" style="display:none;" data-version="5.0.7">
+                            <ul>
+                                <li data-index="rs-0">
+                                    <img src="resimler/kategoriler/1556177230.jpg" alt="ALBORG" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-duration="5000" data-ease="Power1.easeInOut" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+
+                                </li>
+                                <li data-index="rs-1">
+                                    <img src="resimler/kategoriler/1611827780.jpg" alt="ALBORG" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-duration="5000" data-ease="Power1.easeInOut" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                                </li>
+
+
+                              
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section>
+                <div class="content-wrap" style="background:url(img/bgmain.png) right top repeat-y; padding-bottom:0px; background-size:cover;">
+                    <div class="container first-container" style="margin-bottom: 50px;">
+                       
+                        <section class="topmargin">
+                            <div class="row home-page-product-groups nopadding nomargin">
+                                <h2 style="text-align:center;">ÜRÜN GRUPLARIMIZ</h2>
+                                <div class="col-md-12 nopadding">
+
+                                    <div class=" col-md-6  product-group-containe group-left">
+                                        <div class="product-group-product-wrapper home-page-group">
+                                            <div >
+                                                <a href="koleksiyon/koltuk-takimlari.html">
+                                                    <img src="resimler/kategoriler/1549973814.jpg" alt="KOLTUK TAKIMI">
+                                                </a>
+                                            </div>
+                                            <div class="product-name">
+                                                <h3><a href="koleksiyon/koltuk-takimlari.html">KOLTUK TAKIMI</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-6  product-group-containe group-left">
+                                        <div class="product-group-product-wrapper home-page-group">
+                                            <div>
+                                                <a href="koleksiyon/kose-koltuk-takimlari.html">
+                                                    <img src="resimler/kategoriler/1549973990.jpg" alt="KÖŞE KOLTUK TAKIMI">
+                                                </a>
+                                            </div>
+                                            <div class="product-name">
+                                                <h3><a href="koleksiyon/kose-koltuk-takimlari.html">KÖŞE KOLTUK TAKIMI</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-6  product-group-containe group-left">
+                                        <div class="product-group-product-wrapper home-page-group">
+                                            <div>
+                                                <a href="koleksiyon/berjerler.html">
+                                                    <img src="resimler/kategoriler/1556177230.jpg" alt="BERJER">
+                                                </a>
+                                            </div>
+                                            <div class="product-name">
+                                                <h3><a href="koleksiyon/berjerler.html">BERJER</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-6  product-group-containe group-left">
+                                        <div class="product-group-product-wrapper home-page-group">
+                                            <div >
+                                                <a href="koleksiyon/yatak-odasi-takimlari.html">
+                                                    <img src="resimler/kategoriler/1549974384.jpg" alt="YATAK ODASI TAKIMI">
+                                                </a>
+                                            </div>
+                                            <div class="product-name">
+                                                <h3><a href="koleksiyon/yatak-odasi-takimlari.html">YATAK ODASI TAKIMI</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-6  product-group-containe group-left">
+                                        <div class="product-group-product-wrapper home-page-group">
+                                            <div >
+                                                <a href="koleksiyon/yemek-odasi-takimlari.html">
+                                                    <img src="resimler/kategoriler/1549974641.jpg" alt="YEMEK ODASI TAKIMI">
+                                                </a>
+                                            </div>
+                                            <div class="product-name">
+                                                <h3><a href="koleksiyon/yemek-odasi-takimlari.html">YEMEK ODASI TAKIMI</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-md-6  product-group-containe group-left">
+                                        <div class="product-group-product-wrapper home-page-group">
+                                            <div >
+                                                <a href="koleksiyon/tv-uniteleri.html">
+                                                    <img src="resimler/kategoriler/1574349148.jpg" alt="TV ÜNİTESİ">
+                                                </a>
+                                            </div>
+                                            <div class="product-name">
+                                                <h3><a href="koleksiyon/tv-uniteleri.html">TV ÜNİTESİ</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    
+                  
+                    
+                </div>
+            </section>
+
+            <footer id="footer" class="dark ">
+                <div class="container">
+                    <div class="footer-widgets-wrap clearfix">
+                        <div class="row clearfix">
+                            <div class="col-md-8 col-xs-12" style="border-right:1px solid #4d6c86;">
+                                <div class="widget clearfix">
+                                    <div class="row">
+                                        <div id="footer-logo-w" class="col-xs-12 col-md-3 c0l-sm-6 center">  
+                                            <img src="img/secretlogo1.png" class="center" alt="Secret Mobilya - Feeling Different">
+                                            <div id="footer-social-links" class="center" style="">
+                                                <a href="link yok" class="social-icon si-rounded si-small si-colored si-facebook">
+                                                    <i class="fa fa-facebook"></i>
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                    
+                                                <a href="link yok" class="social-icon si-rounded si-small si-colored si-twitter">
+                                                    <i class="fa fa-twitter"></i>
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                    
+                                                <a href="link yok" class="social-icon si-rounded si-small si-colored si-instagram">
+                                                    <i class="fa fa-instagram"></i>
+                                                    <i class="fa fa-instagram"></i>
+                                                </a>
+                                                <a href="https://www.linkedin.com/in/gizem-coşkun-526376197/?lipi=urn%3Ali%3Apage%3Amynetwork_index%3B2032a871-de2e-43c6-9323-a072890fa31b" class="social-icon si-rounded si-small si-colored si-instagram">
+                                                    <i class="fa fa-linkedin"></i>
+                                                    <i class="fa fa-linkedin"></i>
+                                                </a>
+                                                
+                                            </div>
+                                           
+                                            
+                                        </div>
+                                        <div class="col-xs-12 col-md-3 c0l-sm-6 widget_links hidden-xs">
+                                            <h4>KURUMSAL</h4>
+                                            <ul>
+                                                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                                                <li><a href="ilkelerimiz.html">İlkelerimiz</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-xs-12 col-md-3 c0l-sm-6 widget_links hidden-xs">
+                                            <h4>ÜRÜNLERİMİZ</h4>
+                                            <ul>
+                                                <li><a href="koleksiyon/koltuk-takimlari.html">Koltuk Takımları</a></li>
+                                                <li><a href="koleksiyon/kose-koltuk-takimlari.html">Köşe Koltuk Takımları</a></li>
+                                                <li><a href="koleksiyon/yemek-odasi-takimlari.html">Yemek Odaları</a></li>
+                                                <li><a href="koleksiyon/yatak-odasi-takimlari.html">Yatak Odaları</a></li>
+                                                <li><a href="koleksiyon/tv-uniteleri.html">TV Üniteleri</a></li>
+                                                <li><a href="koleksiyon/berjerler.html">Berjerler</a></li>
+                                                <li><a href="koleksiyon/sandalyeler.html">Sandalyeler</a></li>
+                                                <li><a href="koleksiyon/sehpalar.html">Sehpalar</a></li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="visible-sm bottommargin-sm"></div>
+                            </div>
+                            <div class="visible-sm visible-xs line"></div>
+                            <div class="col-md-4 col-xs-12">
+                                <div class="widget clearfix" style="background:url(img/emailbg.png) no-repeat ;">
+                                    <h4>BİZDEN HABERDAR OLUN</h4>
+                                    <p style="margin-bottom:10px;">Ebültenimize kaydolun, yeniliklerimizden ve bültenlerimizden haberdar olun. Asla spam mail göndermiyoruz!</p>
+                                    <div class="widget-subscribe-form-result"></div>
+                                        <div style="margin-bottom: -10px;">
+                                            
+                                        </div>
+                                    </form>
+            
+                                    
+                                    
+                                    <div class="footer-informations">
+                                        <ul>
+                                            <li class="clearfix">
+                                                <span class="iconimg"><i class="fa fa-clock-o"></i></span>
+                                                <span class="footer-info">
+                                                    <strong>Çalışma Saatlerimiz</strong>
+                                                    <p>Hafta İçi 08:00 - 18.00</p>
+                                                </span>
+                                            </li>
+                                            
+                                            <li class="clearfix">
+                                                <span class="iconimg"><i class="fa fa-envelope"></i></span>
+                                                <span class="footer-info">
+                                                    <strong>Kayıtlı Elektronik Posta :</strong>
+                                                    <p><a href="mailto:secret.mobilya@com.tr">secret.mobilya@com.tr</a></p>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+            
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            
+                
+            </footer> 
+        </div>
+        <div id="gotoTop" class="icon-angle-up"></div>
+    </div>
+    <script type="text/javascript" src="themes/default/assets/frontend/js/jquery.js"></script>
+    <script src="themes/default/assets/js/app.js"></script>
+    <script src="../cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="../cdn.jsdelivr.net/autocomplete.js/0/autocomplete.jquery.min.js"></script>
+    <script type="text/javascript" src="themes/default/assets/frontend/js/functions.min.js"></script>
+    <script type="text/javascript" src="themes/default/assets/frontend/js/plugins.min.js"></script>
+    <script src="themes/default/assets/frontend/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="themes/default/assets/frontend/include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="themes/default/assets/frontend/include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="themes/default/assets/frontend/include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="themes/default/assets/frontend/include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="themes/default/assets/frontend/include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script>
+        //localStorage.removeItem('remember-policy');
+        if (localStorage.getItem('remember-policy')) {
+            $('.cookie-policy-bubble').hide();
+        } else {
+            $('.cookie-policy-bubble').show();
+        }
+        $('#close-cookie-bubble').click(function() {
+            localStorage.setItem("remember-policy", "true");
+            $('.cookie-policy-bubble').hide();
+        });
+        $(document).ready(function() {
+            $(".aa-dropdown-menu").mCustomScrollbar({
+                theme: '3d-dark',
+            });
+            $('#search-products').attr('placeholder', 'Ara');
+        });
+        $(document).ready(function() {
+            if ($("#pom_slider").revolution == undefined) {
+                revslider_showDoubleJqueryError("#pom_slider");
+            } else {
+                revapi48 = $("#pom_slider").show().revolution({
+                    sliderType: "standard",
+                    sliderLayout: "auto",
+                    autoHeight: 'on',
+                    delay: 6000,
+                    navigation: {
+                        keyboardNavigation: "off",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "off",
+                        onHoverStop: "on",
+                        touch: {
+                            touchenabled: "on",
+                            swipe_threshold: 0.7,
+                            swipe_min_touches: 1,
+                            swipe_direction: "horizontal",
+                            drag_block_vertical: false
+                        },
+                        arrows: {
+                            style: "metis",
+                            enable: true,
+                            hide_onmobile: true,
+                            hide_onleave: false,
+                            tmp: '',
+                            left: {
+                                h_align: "left",
+                                v_align: "bottom",
+                                h_offset: 0,
+                                v_offset: 0
+                            },
+                            right: {
+                                h_align: "right",
+                                v_align: "bottom",
+                                h_offset: 0,
+                                v_offset: 0
+                            }
+                        }
+
+                    },
+                    responsiveLevels: [1800, 1600, 1240, 1024, 778, 480],
+                    gridwidth: [1800, 1600, 1240, 1024, 778, 480],
+                    gridheight: [950, 750, 650, 600, 350, 250],
+                    disableProgressBar: "on",
+                    debugMode: false,
+                });
+            }
+        });
+    </script>
+    <script>
+        $(window).on('load', function() {
+            let today = "17.11.2021";
+            if (!localStorage.getItem('last_visited_at')) {
+                $(".popup-box").fitVids();
+                $('.popup-wrap').fadeIn(250);
+                $('.popup-box').removeClass('transform-out').addClass('transform-in');
+                localStorage.setItem("last_visited_at", today);
+            } else {
+                let last_visited = localStorage.getItem('last_visited_at');
+                if (today != last_visited) {
+                    $(".popup-box").fitVids();
+                    $('.popup-wrap').fadeIn(250);
+                    $('.popup-box').removeClass('transform-out').addClass('transform-in');
+                    localStorage.setItem("last_visited_at", today);
+                }
+            }
+        });
+
+        $('.popup-close').click(function(e) {
+            $('.popup-wrap').fadeOut(500);
+            $('.popup-box').removeClass('transform-in').addClass('transform-out');
+            $('.popup-box').empty();
+            e.preventDefault();
+        });
+    </script>
+
+    <script>
+        var tpj = jQuery;
+        var revapi48;
+        tpj(document).ready(function() {
+            if (tpj("#rev_slider_48_1").revolution == undefined) {
+                revslider_showDoubleJqueryError("#rev_slider_48_1");
+            } else {
+                revapi48 = tpj("#rev_slider_48_1").show().revolution({
+                    sliderType: "standard",
+                    sliderLayout: "fullwidth",
+                    dottedOverlay: "none",
+                    delay: 6000,
+                    navigation: {
+                        keyboardNavigation: "off",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation: "off",
+                        onHoverStop: "on",
+                        touch: {
+                            touchenabled: "on",
+                            swipe_threshold: 0.7,
+                            swipe_min_touches: 1,
+                            swipe_direction: "horizontal",
+                            drag_block_vertical: false
+                        },
+                        arrows: {
+                            style: "metis",
+                            enable: true,
+                            hide_onmobile: true,
+                            hide_onleave: false,
+                            tmp: '',
+                            left: {
+                                h_align: "left",
+                                v_align: "bottom",
+                                h_offset: 150,
+                                v_offset: 40
+                            },
+                            right: {
+                                h_align: "left",
+                                v_align: "bottom",
+                                h_offset: 213,
+                                v_offset: 40
+                            }
+                        }
+
+                    },
+                    responsiveLevels: [1800, 1600, 1240, 1024, 778, 480],
+                    gridwidth: [1800, 1600, 1240, 1024, 778, 480],
+                    gridheight: [950, 750, 650, 600, 350, 250],
+
+                    lazyType: "none",
+                    shadow: 0,
+                    spinner: "off",
+                    stopLoop: "off",
+
+                    shuffle: "off",
+                    autoHeight: "off",
+                    fullScreenAlignForce: "off",
+                    fullScreenOffsetContainer: "",
+                    fullScreenOffset: "",
+                    disableProgressBar: "on",
+                    hideThumbsOnMobile: "off",
+                    hideSliderAtLimit: 0,
+                    hideCaptionAtLimit: 0,
+                    hideAllCaptionAtLilmit: 0,
+                    debugMode: false,
+                    fallbacks: {
+                        simplifyAll: "off",
+                        nextSlideOnWindowFocus: "off",
+                        disableFocusListener: false,
+                    }
+                });
+            }
+        }); 
+    </script>
+
+</body>
+
+
+</html>
