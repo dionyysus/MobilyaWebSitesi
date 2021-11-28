@@ -19499,9 +19499,7 @@ input[type=checkbox]:not(:checked)+label.error {
 	border-color: #E1AEB3;
 }
 
-/* ----------------------------------------------------------------
-	23. Google Maps
------------------------------------------------------------------*/
+
 
 #google-map {
 	position: relative;
@@ -19536,9 +19534,6 @@ p.mapdealerinfo {
 	left: 0;
 }
 
-/* ----------------------------------------------------------------
-	Google Custom Search
------------------------------------------------------------------*/
 
 #content .cse .gsc-control-cse,
 #content .gsc-control-cse,
