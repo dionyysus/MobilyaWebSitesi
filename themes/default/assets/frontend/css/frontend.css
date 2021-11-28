@@ -8135,12 +8135,9 @@ body.stretched #header.full-header .container {
 	line-height: 34px;
 }
 
-/* ----------------------------------------------------------------
-	Primary Menu
------------------------------------------------------------------*/
 
 #primary-menu {
-	float: right;
+	float: left;
 
 }
 
